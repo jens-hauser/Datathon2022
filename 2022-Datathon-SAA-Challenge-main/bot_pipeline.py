@@ -12,7 +12,12 @@ from subprocess import Popen, PIPE, STDOUT
 from typing import Callable
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
+from dotenv import load_dotenv
 
+load_dotenv()
+
+APP_TOKEN = os.getenv('APP_TOKEN')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 
 filenames = [
@@ -119,8 +124,6 @@ def check_for_similar_qa(question, filenames, threshold=0.9):
     else:
         return "No FAQ found"
 
-APP_TOKEN = "xapp-1-A03G6PV8XQQ-3527058728995-f3442ab6b010e0eb092f68ac75523a7063f414bb6dfee6d4555f55f65234d121"
-BOT_TOKEN = "xoxb-3412750305445-3520425401414-1cHEyMDH18Y8uGjeTmhWlcIM"
 app = App(token=BOT_TOKEN)
 
 @app.event("message")
