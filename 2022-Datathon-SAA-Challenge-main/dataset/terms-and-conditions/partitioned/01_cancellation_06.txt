@@ -1,0 +1,11 @@
+Which persons are insured?
+
+In the case of insurance policies with a term of less than one year (short-term 
+insurance policies), the persons listed in the insurance policy are insured. In 
+the event of insurance policies with a term of one year (annual insurance 
+policies), the insurance policy states whether the insurance cover applies for 
+the policyholder alone (single person) or for the policyholder and the persons 
+living with him/her in the same household as well as their minor children not 
+living in the same household (family insurance policy).
+The insured persons are in each case essentially set out in the insurance 
+policy and the General Terms and Conditions of Insurance (GTC).
